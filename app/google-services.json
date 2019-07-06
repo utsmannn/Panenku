@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "986914885066",
+    "firebase_url": "https://panenku-c2fa7.firebaseio.com",
+    "project_id": "panenku-c2fa7",
+    "storage_bucket": "panenku-c2fa7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986914885066:android:77ba96239f950074",
+        "android_client_info": {
+          "package_name": "gundar.fahri.panenku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986914885066-27h0i9kvit1cbi5n3hifj3gavj3eqln1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gundar.fahri.panenku",
+            "certificate_hash": "da861f1b9bb20a67f341f66cefda0bb2ceab5140"
+          }
+        },
+        {
+          "client_id": "986914885066-d9tqrctu9jijhk0ut6f8pq1hhb27trrc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgNB1Syz4zgsqdAaL58DMjB7T8OZaCIVo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986914885066-d9tqrctu9jijhk0ut6f8pq1hhb27trrc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
