@@ -6,6 +6,8 @@ apply plugin: 'kotlin-android-extensions'
 
 apply plugin: 'com.google.gms.google-services'
 
+apply plugin: 'kotlin-kapt'
+
 android {
     compileSdkVersion 28
     defaultConfig {
@@ -34,10 +36,33 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
-    // Firebase
-    implementation 'com.google.firebase:firebase-core:17.0.0'
+    // Design
+    implementation 'com.google.android.material:material:1.1.0-alpha07'
+
+    // Firebase Core
+    implementation 'com.google.firebase:firebase-core:17.0.1'
+
+    // Memudahkan untuk koneksi authentikasi firebase google login
     implementation 'com.utsman:easygooglelogin:1.0.7'
 
-    implementation 'com.google.firebase:firebase-auth:18.0.0'
+    // Firebase Authentication
+    implementation 'com.google.firebase:firebase-auth:18.1.0'
 
+    // Firebase Realtime Database
+    implementation 'com.google.firebase:firebase-database:18.0.0'
+
+    // Recyclerview
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+
+    // Glide
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    kapt 'com.github.bumptech.glide:compiler:4.9.0'
+
+    // Glide Transformation
+    implementation 'jp.wasabeef:glide-transformations:4.0.1'
+
+}
+
+androidExtensions {
+    experimental = true
 }
